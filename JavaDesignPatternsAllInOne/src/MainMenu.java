@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class MainMenu {
 	public static boolean userMainMenu()
 	{
@@ -42,6 +43,9 @@ public class MainMenu {
 		go = mainMenuExitInput.next().charAt(0);
 		if(go == 'y' || go == 'Y')
 		{
+			//Test 1 of clearing console.
+			for (int i = 0; i < 10; ++i) System.out.println();
+			//End of Test 1 of clearing console. Java doesn't have a clear console. 
 			repeat = true;
 			return repeat;
 		}
