@@ -26,6 +26,7 @@ public class Adapter {
 				repeat = false;
 				System.out.println("Not a listed option, exiting Adapter Pattern example.");
 			}
+			
 
 		}
 	}

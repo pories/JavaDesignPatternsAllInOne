@@ -15,6 +15,7 @@ public class MainMenu {
 		case "1":
 			//https://www.youtube.com/watch?v=94t2ayF1l3o
 			Strategy.Execute();
+			for (int i = 0; i < 1000; ++i) System.out.println();
 			break;
 		case "2":
 			//https://www.youtube.com/watch?v=xgkbirZrwAs&index=4&list=PL8C53D99ABAD3F4C8
@@ -44,25 +45,22 @@ public class MainMenu {
 		if(go == 'y' || go == 'Y')
 		{
 			//Test 1 of clearing console.
-			for (int i = 0; i < 10; ++i) System.out.println();
+			for (int i = 0; i < 100; ++i) System.out.println();
 			//End of Test 1 of clearing console. Java doesn't have a clear console. 
 			repeat = true;
 			return repeat;
 		}
 		else if(go == 'n' || go == 'N')
 		{
+			for (int i = 0; i < 100; ++i) System.out.println();
 			repeat = false;
 			return repeat;
 		}
 		else
 		{
+			for (int i = 0; i < 100; ++i) System.out.println();
 			repeat = false;
-			return repeat;
-			
+			return repeat;		
 		}
-		
 	}
-
-
-
 }
